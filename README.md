@@ -9,4 +9,4 @@ Install the required dependencies for LightGlue and SAM2, and install kmeans-pyt
 # run
 cd  sam2
 
-python demo_l_oneimage.py
+python demo_l.py
