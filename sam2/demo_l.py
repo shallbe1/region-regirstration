@@ -28,7 +28,9 @@ from scipy.ndimage import label as scipy_label
 from skimage import measure
 
 '''
-Part of the project code is based on LightGlue and SAM2, and we are grateful for their team's outstanding contributions. Thanks to Tangfei Liao for helping with the LightGlue output debugging. This code can be found in github.  
+Part of the project code is based on LightGlue and SAM2, and we are grateful for their team's outstanding contributions. 
+Thanks to Tangfei Liao for helping with the LightGlue output debugging. 
+The code can be found in github.  
 '''
 
 def read_image(path, grayscale: bool = False):
